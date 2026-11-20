@@ -1,0 +1,12 @@
+{
+  "name": "platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "start:drawing": "npm run start -w technical-drawing"
+  }
+}
